@@ -8,9 +8,18 @@ export default {
                 IRANSansXBold: 'IRANSansX-Bold',
                 IRANSansXDemiBold: 'IRANSansX-DemiBold',
                 IRANSansXRegular: 'IRANSansX-Regular',
+                sfUIBold: 'sf-ui-display-bold',
+                sfUISemibold: 'sf-ui-display-semibold',
+                sfUIMedium: 'sf-ui-display-medium',
+                sfUIRegular: 'sf-ui-display-Regular',
+            },
+
+            spacing: {
+                12.5: '3.125rem',
             },
         },
         colors: {
+            transparent: 'transparent',
             Neutral: {
                 10: '#1A1A1A',
                 20: '#333333',
@@ -25,6 +34,7 @@ export default {
                 95: '#F2F2F2',
                 97: '#F7F7F7',
                 100: '#ffffff',
+              
             },
             Primary: {
                 main: '#329A86',
@@ -32,11 +42,11 @@ export default {
                 Pressed: '#1C3F3A',
                 hover: '#226359',
             },
-            Semantic : {
-              Active : "#0072DA" , 
-              Warning : "#FFAB00" , 
-              Danger : "#CC3931"
-            }
+            Semantic: {
+                Active: '#0072DA',
+                Warning: '#FFAB00',
+                Danger: '#CC3931',
+            },
         },
     },
 

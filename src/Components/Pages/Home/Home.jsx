@@ -1,12 +1,10 @@
-import { Heart } from 'iconsax-react'
-import React from 'react'
+import React from 'react';
+import Navbar from '../../Common/Navbar';
 
 export default function Home() {
-  return (
-    <div>
-<Heart size="32" color="#FF8A65"/> <span className='font-IRANSansXRegular'>آیکون ها اضافه شد</span>
-      <div className='font-IRANSansXBold text-Neutral-100 bg-Primary-Pressed'>فونت ایران سانس ایکس اضافه شد</div>
-      <span className='bg-Semantic-Warning'>رنگ ها اضافه شد</span>
-    </div>
-  )
+    return (
+        <div className=" bg-Neutral-100 max-w-[1900px] mx-auto">
+            <Navbar />
+        </div>
+    );
 }
