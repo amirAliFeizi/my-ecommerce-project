@@ -34,13 +34,13 @@ export default {
                 95: '#F2F2F2',
                 97: '#F7F7F7',
                 100: '#ffffff',
-              
             },
             Primary: {
                 main: '#329A86',
                 bgColor: '#EFF4F3',
                 Pressed: '#1C3F3A',
                 hover: '#226359',
+                shopIcon : "#295F2D"
             },
             Semantic: {
                 Active: '#0072DA',
@@ -50,5 +50,10 @@ export default {
         },
     },
 
-    plugins: [],
+    plugins: [
+        function ({ addVariant }) {
+            addVariant("child", "& > *");
+            addVariant("child-hover", "& > *:hover");
+        },
+    ],
 };
