@@ -1,5 +1,5 @@
 import React from 'react'
-import { Location } from 'iconsax-react'
+import { Location, Message, Star1 } from 'iconsax-react'
 
 export default function HeaderProduct() {
     return (
@@ -18,6 +18,15 @@ export default function HeaderProduct() {
             <h1 className="text-Neutral-10 mt-4 sm:mt-6 font-IRANSansXBold text-base sm:text-lg md:text-xl font-bold">
                 ویپ آرمور مکس ویپرسو VAPORESSO ARMOUR MAX
             </h1>
+            <div className='flex items-center gap-x-2 mt-4'>
+                <Star1 size="18" color="#FBD54F" />
+                <span className='text-Neutral-20'>4.8</span>
+                <span className=' text-Neutral-60 font-IRANSansX'>(240نفر)</span>
+                <span className='w-1 h-1 bg-Neutral-60 rounded-full'></span>
+                <Message size="18" color="#0072DA" />
+                <span className='text-Semantic-Active font-IRANSansX'>40 دیدگاه</span>
+            </div>
+
         </section>
 
     )
