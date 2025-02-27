@@ -17,6 +17,13 @@ export default {
             spacing: {
                 12.5: '3.125rem',
             },
+            lineHeight: {
+                8.5: "33.38px",
+                6.5: "27px"
+            },
+            fontSize: {
+                4.5: "18px"
+            },
         },
         colors: {
             transparent: 'transparent',
@@ -40,7 +47,7 @@ export default {
                 bgColor: '#EFF4F3',
                 Pressed: '#1C3F3A',
                 hover: '#226359',
-                shopIcon : "#295F2D"
+                shopIcon: "#295F2D"
             },
             Semantic: {
                 Active: '#0072DA',
