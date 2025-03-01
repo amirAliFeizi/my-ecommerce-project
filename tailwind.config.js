@@ -24,6 +24,24 @@ export default {
             fontSize: {
                 4.5: "18px"
             },
+
+            width: {
+                25: "100px",
+                44.5: "177px",
+                35.5: "143px",
+                216.5:'867px',
+                212.5:'850px'
+
+            },
+            height: {
+                35.5: "143px",
+                30:'120px',
+                70:'277px'
+
+            },
+            borderColor: {
+                main: 'rgba(153,192,183,1)'
+            }
         },
         colors: {
             transparent: 'transparent',
