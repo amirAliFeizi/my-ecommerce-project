@@ -7,7 +7,9 @@ export default function Product() {
   return (
     <div className='max-w-[1900px] mx-auto '>
       <HeaderProduct />,
-      <ActionSidebar  />
+      <ActionSidebar  />,
+      <CenterSectionProduct />
+      
 
 
 
