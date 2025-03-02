@@ -1,15 +1,20 @@
 import React from 'react'
 import HeaderProduct from './HeaderProduct'
 import ActionSidebar from './ActionSidebar'
+import CenterSectionProduct from './CenterSectionProduct'
+
 
 
 export default function Product() {
   return (
     <div className='max-w-[1900px] mx-auto '>
       <HeaderProduct />,
-      <ActionSidebar  />,
-      <CenterSectionProduct />
-      
+     
+        <ActionSidebar />,
+        <CenterSectionProduct />
+    
+
+
 
 
 

@@ -4,10 +4,10 @@ import { Location, Message, Star1 } from 'iconsax-react'
 export default function HeaderProduct() {
     return (
 
-        <section className="container  px-4 md:px-10 lg:px-20">
+        <section className="  px-4 md:px-10 lg:px-20">
             <div className='border-b-2 pb-3 border-Neutral-90'>
                 <ul className="flex flex-wrap items-center gap-1 text-Neutral-20 text-xs sm:text-sm md:text-base font-IRANSansX">
-                    <Location size="20" className="sm:size-6" color="#333333" variant="TwoTone" />
+                    <Location size="20" className="sm:size-6 " color="#333333" fill='green'  variant="TwoTone" />
                     <li>خانه</li>
                     <li className="before:content-['/'] before:mx-2">ویپ | Vape</li>
                     <li className="before:content-['/'] before:mx-2">Vaporesso</li>
@@ -28,6 +28,7 @@ export default function HeaderProduct() {
                     <span className='text-Semantic-Active font-IRANSansX'>40 دیدگاه</span>
                 </div>
             </div>
+         
 
         </section>
 
