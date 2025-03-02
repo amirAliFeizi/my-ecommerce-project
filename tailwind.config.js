@@ -24,6 +24,30 @@ export default {
             fontSize: {
                 4.5: "18px"
             },
+
+            width: {
+                25: "100px",
+                44.5: "177px",
+                35.5: "143px",
+                216.5: '867px',
+                212.5: '850px'
+
+            },
+            height: {
+                35.5: "143px",
+                30: '120px',
+                70: '277px'
+
+            },
+            borderColor: {
+                main: 'rgba(153,192,183,1)'
+            },
+            borderWidth: {
+                1.5: "1.5px"
+            },
+            margin: {
+                25: '100px',
+            }
         },
         colors: {
             transparent: 'transparent',
@@ -36,6 +60,7 @@ export default {
                 60: '#999999',
                 70: '#B3B3B3',
                 80: '#CCCCCC',
+                85: "#D9D9D9",
                 90: '#E6E6E6',
                 93: '#EDEDED',
                 95: '#F2F2F2',

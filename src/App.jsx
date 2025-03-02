@@ -5,6 +5,7 @@ import Product from "./Components/Pages/Product/Product";
 import Home from "./Components/Pages/Home/Home";
 import Layout from "./Components/Layout/Layout";
 import AdvantageSection from "./Components/Pages/Advantage/AdvantageSection";
+import TabMenu from "./Components/Pages/ProductDescription/TabMenu";
 // import ProductDetail from "./components/pages/ProductDetail";
 // import Cart from "./components/pages/Cart";
 // import Checkout from "./components/pages/Checkout";
@@ -20,6 +21,8 @@ function App() {
           <Route index element={<Home />} />
           <Route path="product" element={<Product />} />
           <Route path="AdvantageSection" element={<AdvantageSection />} />
+          <Route path="TabMenu" element={<TabMenu />} />
+
         </Route>
       </Routes>
     </Router>
