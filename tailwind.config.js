@@ -47,7 +47,7 @@ export default {
             },
             margin: {
                 25: '100px',
-            }
+            },
         },
         colors: {
             transparent: 'transparent',

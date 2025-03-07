@@ -22,7 +22,6 @@ function App() {
           <Route path="product" element={<Product />} />
           <Route path="AdvantageSection" element={<AdvantageSection />} />
           <Route path="TabMenu" element={<TabMenu />} />
-
         </Route>
       </Routes>
     </Router>

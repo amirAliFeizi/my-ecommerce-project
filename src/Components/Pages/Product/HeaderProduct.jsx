@@ -28,11 +28,11 @@ export default function HeaderProduct() {
                     <span className='text-Semantic-Active font-IRANSansX'>40 دیدگاه</span>
                 </div>
             </div>
-<<<<<<< HEAD
+{/* <<<<<<< HEAD */}
          
 =======
             
->>>>>>> 6bbea2f58bfc4e2c514482fcc0b8ba900a833488
+{/* >>>>>>> 6bbea2f58bfc4e2c514482fcc0b8ba900a833488 */}
 
         </section>
 
