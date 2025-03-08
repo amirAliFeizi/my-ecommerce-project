@@ -4,7 +4,7 @@ import PropertiesBox from "./PropertiesBox";
 
 const AdvantageSection = () => {
   return (
-    <section className="relative bg-Primary-bgColor min-w-[1440px] h-70 mt-10 px-20">
+    <section className="relative bg-Primary-bgColor w-full min-w-[1040px]  h-70 mt-10 px-20">
       <AdvantageTitle />
       <PropertiesBox />
     </section>

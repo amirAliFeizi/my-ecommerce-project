@@ -4,29 +4,39 @@ import MySecondIcon from "./icons/MySecondIcon";
 import TruckIcon from "./icons/TruckIcon";
 
 export default function PropertiesBox() {
-  const features = [
-    { text: "تضمین ارسال سریع", icon: TruckIcon },
-    { text: "تضمین پایین‌ترین قیمت", icon: MoneyBackIcon },
-    { text: "تضمین اصالت کالا", icon: MySecondIcon },
-  ];
   return (
     <>
-      <div className="absolute bottom-0 left-20  w-212.5 h-30 bg-Primary-main rounded flex justify-around items-center">
-        {features.map((feature, index) => (
-          <div
-            key={index}
-            className="z-20 mb-20 flex flex-col items-center justify-evenly  w-40 text-center"
-          >
-            <div className="flex flex-nowrap items-center justify-center  w-24 h-24 border-main border-2 rounded-full">
-              <div className="h-20 w-20 rounded-full bg-Neutral-100 flex items-center justify-center">
-                {feature.icon && <feature.icon size="24" color="#333333" />}
-              </div>
+      <div className="absolute bottom-0 left-20 w-216.5 h-30 bg-Primary-main rounded px-[138px] pb-16 gap-x-16 flex items-center">
+        <div className="z-10 flex flex-col items-center w-35.5 h-35.5">
+          <div className="flex items-center justify-center w-24 h-24 border-main border-2 rounded-full">
+            <div className="h-20 w-20 rounded-full bg-Neutral-100 flex items-center justify-center">
+              <TruckIcon />
             </div>
-            <p className="font-IRANSansX text-Neutral-100 text-lg font-medium mt-2 leading-6.5">
-              {feature.text}
-            </p>
           </div>
-        ))}
+          <p className="font-IRANSansX text-Neutral-100 text-lg font-medium mt-2 leading-6.5">
+            تضمین ارسال سریع
+          </p>
+        </div>
+        <div className="z-10 flex flex-col items-center w-44.5 h-35.5 text-center">
+          <div className="flex items-center justify-center w-24 h-24 border-main border-2 rounded-full">
+            <div className="h-20 w-20 rounded-full bg-Neutral-100 flex items-center justify-center">
+              <MoneyBackIcon />
+            </div>
+          </div>
+          <p className="font-IRANSansX text-Neutral-100 text-lg font-medium mt-2 leading-6.5">
+            تضمین پایین‌ترین قیمت
+          </p>
+        </div>
+        <div className="z-10 flex flex-col items-center w-35.5 h-35.5 text-center">
+          <div className="flex items-center justify-center w-24 h-24 border-main border-2 rounded-full">
+            <div className="h-20 w-20 rounded-full bg-Neutral-100 flex items-center justify-center">
+              <MySecondIcon />
+            </div>
+          </div>
+          <p className="font-IRANSansX text-Neutral-100 text-lg font-medium mt-2 leading-6.5">
+            تضمین اصالت کالا
+          </p>
+        </div>
       </div>
     </>
   );
