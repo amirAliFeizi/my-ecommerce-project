@@ -2,6 +2,7 @@ import React from 'react'
 import HeaderProduct from './HeaderProduct'
 import ActionSidebar from './ActionSidebar'
 import CenterSectionProduct from './CenterSectionProduct'
+import Blogs from './Blog/Blogs'
 
 
 
@@ -11,7 +12,8 @@ export default function Product() {
       <HeaderProduct />,
      
         <ActionSidebar />,
-        <CenterSectionProduct />
+        
+        <Blogs />
     
 
 
