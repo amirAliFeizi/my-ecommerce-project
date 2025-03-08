@@ -53,7 +53,7 @@ export default function ActionSidebar() {
                     </div>
                 </div>
 
-                <div className='flex flex-col gap-8 mr-5'>
+                <div className='flex flex-col gap-8 mr-5 '>
                     <div className='flex items-center gap-2'>
                         <ShieldTick size="18" color="#0072DA" />
                         <span className='text-sm font-IRANSansXFaNum text-Semantic-Active'>گارانتی اصالت و سلامت فیزیکی کالا</span>
@@ -62,7 +62,7 @@ export default function ActionSidebar() {
                         <span className=''>✔</span>
                         <span className='text-sm font-IRANSansXFaNum text-Primary-main'>موجود است</span>
                     </div>
-                    <div className='mt-2'>
+                    <div className='mt-2 '>
                         <span className='text-Primary-Pressed font-bold text-lg font-IRANSansXFaNum'>ویژگی‌های محصول</span>
                         <div className='flex flex-col gap-3'>
                             <div className='flex items-center gap-1 mt-8 mr-7'>
@@ -97,7 +97,7 @@ export default function ActionSidebar() {
                         </div>
 
                     </div>
-                    <div className='flex flex-col gap-3 mt-4'>
+                    <div className='flex flex-col gap-3 mt-4 '>
                         <div className='flex items-center gap-2'>
                             <span className='text-Neutral-50 font-IRANSansX text-base'>برند:</span>
                             <span className='text-Semantic-Active font-IRANSansX text-base'>ویپرسو</span>
@@ -111,7 +111,7 @@ export default function ActionSidebar() {
                 </div>
 
                 <div className='flex flex-col gap-4 '>
-                    <div className='w-[305px] h-[305px] p-2 bg-Neutral-97 border-2 border-Neutral-95 p-3  rounded-lg'>
+                    <div className='w-[305px] h-[305px] p-3 bg-Neutral-97 border-2 border-Neutral-95   rounded-lg'>
                         <div>
                             <h3 className='text-Neutral-20 text-center font-IRANSansXFaNum text-xl p-2 border-b border-b-Neutral-10 font-IRANSansX'>گزینه‌های خرید</h3>
 
@@ -164,21 +164,22 @@ export default function ActionSidebar() {
 
                         </div>
                     </div>
-                    <h1 className='text-Neutral-50 font-IRANSansX text-sm'>سوالی دارید؟</h1>
-                    <div className='flex flex-col gap-3'>
-                        <div className='flex justify-between gap-48 items-center mt-3'>
+
+                    <div className='flex flex-col gap-2  mt-5'>
+                        <h1 className='text-Neutral-50 font-IRANSansX text-sm'>سوالی دارید؟</h1>
+                        <div className='flex  gap-48 items-center mt-3'>
                             <div className='flex items-center gap-1'>
                                 <CallCalling size="16" color="#4D4D4D" />
                                 <span className='text-Neutral-30 text-sm font-IRANSansX'>مشاوره تلفنی</span>
                             </div>
-                            <ArrowLeft2 size="12" color="#4D4D4D" />
+                            <ArrowLeft2 size="12" color="#4D4D4D" className='cursor-pointer' />
                         </div>
-                        <div className='flex justify-between  items-center mt-3'>
+                        <div className='flex gap-[128px] items-center mt-3'>
                             <div className='flex items-center gap-1'>
                                 <CallCalling size="16" color="#4D4D4D" />
                                 <span className='text-Neutral-30 text-sm font-IRANSansX'>مشاوره از طریق واتس‌اپ</span>
                             </div>
-                            <ArrowLeft2 size="12" color="#4D4D4D" />
+                            <ArrowLeft2 size="12" color="#4D4D4D" className='cursor-pointer' />
                         </div>
                     </div>
                 </div>
