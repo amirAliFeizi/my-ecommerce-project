@@ -5,6 +5,7 @@ import Article2 from "/images/Article 2.png";
 import Article3 from "/images/Article 3.png";
 import Article4 from "/images/Article 4.png";
 import { Calendar, Clock, Eye, Message } from 'iconsax-react';
+
 export default function Articles() {
   return (
     <section className='px-4 md:px-10 lg:px-20 '>
@@ -145,5 +146,6 @@ export default function Articles() {
 
 
     </section>
+  
   )
 }
