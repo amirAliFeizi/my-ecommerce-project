@@ -99,8 +99,6 @@ export default function ArticlesNavbar() {
                             <span className='font-IRANSansX text-Neutral-60 text-sm'>2 ساعت قبل</span>
                         </div>
                     </div>
-
-
                 </div>
                 <div className='flex items-center justify-center gap-2 mt-16 cursor-pointer'>
                     <button className='font-IRANSansXBold text-Primary-main text-lg'>مشاهده بیشتر</button>

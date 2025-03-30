@@ -9,11 +9,9 @@ import { Calendar, Clock, Eye, Message } from 'iconsax-react';
 export default function Articles() {
   return (
     <section className='px-4 md:px-10 lg:px-20 '>
-
       <div className='flex mt-10'>
         <img src={PicBig} alt="" className='w-[320px] h-[440px]' />
         <div className='flex flex-col gap-3 mx-6 '>
-
           <div className='w-[572px] h-[92px] flex '>
             <img src={Article1} alt="" className='w-[92px] h-[92px]  ' />
             <div className='flex flex-col gap-3 mx-3 '>
@@ -143,8 +141,6 @@ export default function Articles() {
 
         </div>
       </div>
-
-
     </section>
   
   )
