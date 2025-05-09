@@ -7,6 +7,7 @@ import Layout from "./Components/Layout/Layout";
 import AdvantageSection from "./Components/Pages/Advantage/AdvantageSection";
 import TabMenu from "./Components/Pages/ProductDescription/TabMenu";
 import BlogArchivePage from "./Components/Pages/BlogArchivePage/BlogArchivePage";
+import AboutUs from "./Components/Pages/AboutUs/AboutUs";
 
 // import ProductDetail from "./components/pages/ProductDetail";
 // import Cart from "./components/pages/Cart";
@@ -23,6 +24,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="product" element={<Product />} />
           <Route path="BlogArchivePage" element={<BlogArchivePage/>} />
+          <Route path="AboutUs" element={<AboutUs/>}/>
           <Route path="AdvantageSection" element={<AdvantageSection />} />
           <Route path="TabMenu" element={<TabMenu />} />
         </Route>
